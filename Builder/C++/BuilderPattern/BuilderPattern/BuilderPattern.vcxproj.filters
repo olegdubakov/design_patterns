@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\House">
+      <UniqueIdentifier>{d50a5abd-fe4b-4bee-b300-423b135ccc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\House">
+      <UniqueIdentifier>{0cf3319f-e3c0-4a73-9f15-3043380dd860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Builder">
+      <UniqueIdentifier>{e2e9ede8-afcc-4faa-ab25-464f27dcf397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Builder">
+      <UniqueIdentifier>{7a753118-e9dd-495b-ac38-23972ad9c6e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="House.h">
+      <Filter>Header Files\House</Filter>
+    </ClInclude>
+    <ClInclude Include="Basement.h">
+      <Filter>Header Files\House</Filter>
+    </ClInclude>
+    <ClInclude Include="Roof.h">
+      <Filter>Header Files\House</Filter>
+    </ClInclude>
+    <ClInclude Include="Storey.h">
+      <Filter>Header Files\House</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBuilder.h">
+      <Filter>Header Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Header Files\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="IHousePart.h">
+      <Filter>Header Files\House</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="House.cpp">
+      <Filter>Source Files\House</Filter>
+    </ClCompile>
+    <ClCompile Include="Basement.cpp">
+      <Filter>Source Files\House</Filter>
+    </ClCompile>
+    <ClCompile Include="Roof.cpp">
+      <Filter>Source Files\House</Filter>
+    </ClCompile>
+    <ClCompile Include="Storey.cpp">
+      <Filter>Source Files\House</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractBuilder.cpp">
+      <Filter>Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Source Files\Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

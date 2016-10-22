@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AbstractFactory">
+      <UniqueIdentifier>{813384af-8869-44ae-a570-c403f456830d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AbstractWater">
+      <UniqueIdentifier>{25200cef-3558-4b29-b7ea-10a5a27e2ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AbstractBottle">
+      <UniqueIdentifier>{b3858645-db1e-4f51-a425-7c632edbc346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AbstractWater">
+      <UniqueIdentifier>{a12fd020-1300-4aed-aa1e-9a6ac11d5a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AbstractBottle">
+      <UniqueIdentifier>{d8903906-0027-4bd4-9cdb-ec405adf82d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AbstractFactory">
+      <UniqueIdentifier>{50367b7b-14ab-4717-81ae-fdd81a47fa05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CocaColaWater.cpp">
+      <Filter>Source Files\AbstractWater</Filter>
+    </ClCompile>
+    <ClCompile Include="PepsiWater.cpp">
+      <Filter>Source Files\AbstractWater</Filter>
+    </ClCompile>
+    <ClCompile Include="CocaColaBottle.cpp">
+      <Filter>Source Files\AbstractBottle</Filter>
+    </ClCompile>
+    <ClCompile Include="PepsiBottle.cpp">
+      <Filter>Source Files\AbstractBottle</Filter>
+    </ClCompile>
+    <ClCompile Include="CocaColaFactory.cpp">
+      <Filter>Source Files\AbstractFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="PepsiFactory.cpp">
+      <Filter>Source Files\AbstractFactory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractWater.h">
+      <Filter>Header Files\AbstractWater</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBottle.h">
+      <Filter>Header Files\AbstractBottle</Filter>
+    </ClInclude>
+    <ClInclude Include="CocaColaWater.h">
+      <Filter>Header Files\AbstractWater</Filter>
+    </ClInclude>
+    <ClInclude Include="PepsiWater.h">
+      <Filter>Header Files\AbstractWater</Filter>
+    </ClInclude>
+    <ClInclude Include="CocaColaBottle.h">
+      <Filter>Header Files\AbstractBottle</Filter>
+    </ClInclude>
+    <ClInclude Include="PepsiBottle.h">
+      <Filter>Header Files\AbstractBottle</Filter>
+    </ClInclude>
+    <ClInclude Include="CocaColaFactory.h">
+      <Filter>Header Files\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="PepsiFactory.h">
+      <Filter>Header Files\AbstractFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

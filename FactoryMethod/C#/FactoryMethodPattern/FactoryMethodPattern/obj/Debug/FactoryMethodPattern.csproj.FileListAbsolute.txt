@@ -1,0 +1,1 @@
+D:\SolutionsDesignPatterns\FactoryMethod\C#\FactoryMethodPattern\FactoryMethodPattern\bin\Debug\FactoryMethodPattern.exe.config
